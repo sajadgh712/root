@@ -1,0 +1,19 @@
+$blackColor: rgba(0, 0, 0, 0.808);
+$blueColor: rgb(51, 30, 109);
+$yellowColor: rgb(255, 207, 49);
+$whiteColor: #fff;
+
+
+.cards{
+    background-color: rgba(0, 0, 0, 0.644);
+    max-width: 300px;
+    height: 215px;
+    margin: 55px 35px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px $blackColor;
+}
+
+.cards img{
+    max-width: 100%;
+    border-radius: 10px;
+}

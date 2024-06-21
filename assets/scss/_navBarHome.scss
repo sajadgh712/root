@@ -1,0 +1,42 @@
+$blueColor: rgb(51, 30, 109);
+$yellowColor: rgb(255, 207, 49);
+$whiteColor: #fff;
+
+nav {
+  background-color: rgba(0, 0, 0, 0.808);
+}
+
+.nav-items {
+  color: $yellowColor;
+  font-size: 19px;
+  margin: 0 5px 0 5px;
+  text-decoration: none;
+  text-decoration-style: none;
+   transition:  2s;
+
+
+ &:hover {
+    color: $yellowColor;
+    border-bottom: solid 1px $yellowColor;
+    text-shadow: 2px 2px 4px #000000;
+    transition: 2s;
+    cursor: pointer;
+  }
+}
+
+.nav-btn {
+  color: $whiteColor;
+  border: 3px solid $whiteColor;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 4px;
+  transition: 1s;
+  &:hover {
+    background-color: $yellowColor;
+    color: $whiteColor;
+    text-shadow: 2px 2px 4px #000000;
+    border: 3px solid $yellowColor;
+    transition: 1s;
+    font-weight: 500;
+  }
+}

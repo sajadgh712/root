@@ -1,0 +1,28 @@
+$blueColor: rgb(51, 30, 109);
+$yellowColor: rgb(255, 207, 49);
+$whiteColor: #fff;
+$blackColor: rgba(0, 0, 0, 0.808);
+
+.topic-text{
+    margin-top: 60px;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top:3px solid $blackColor;
+    border-bottom: 3px solid $blackColor;
+    max-width: 100%;
+  }
+
+
+.top-text{
+  font-size: 4.5rem;
+  color:$blueColor;
+  text-shadow: 2px 2px 4px $whiteColor;
+}
+
+
+  .bottom-text{
+    color: $yellowColor;
+    font-size: 3rem;
+  }

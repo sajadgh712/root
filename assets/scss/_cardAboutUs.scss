@@ -1,0 +1,26 @@
+$blueColor: rgb(51, 30, 109);
+$yellowColor: rgb(255, 207, 49);
+$whiteColor: #fff;
+
+
+.about-us-card{
+    background-color: $blueColor;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+
+.name-txt{
+    text-align: center;
+    color: $whiteColor;
+    font-size: 25px;
+}
+
+.txt{
+    font-size: 17px;
+    text-align: center;
+    color: $yellowColor;
+    
+}
+
+
+

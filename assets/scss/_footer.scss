@@ -1,0 +1,36 @@
+$blueColor: rgb(51, 30, 109);
+$yellowColor: rgb(255, 207, 49);
+$whiteColor: #fff;
+$blackColor: rgba(0, 0, 0, 0.808);
+
+
+footer{
+ 
+    background-color: $blackColor;
+  }
+
+  .pages{
+    color: $whiteColor;
+    font-size: 15px;
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+    text-decoration-style: none;
+    transition: 2s;
+
+
+    &:hover{
+    color: $yellowColor;
+    text-shadow: 2px 2px 4px #000000;
+    transition: 2s;
+    cursor: pointer;
+  }
+ }
+
+
+  .contact{
+    color: $whiteColor;
+  }
+
+  .text-footer{
+    color: $whiteColor;
+  }

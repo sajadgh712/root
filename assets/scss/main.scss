@@ -1,0 +1,29 @@
+@import "login.scss";
+@import "navBarHome.scss";
+@import "cardsHome.scss";
+@import "topic.scss";
+@import "footer.scss";
+@import "navBarCars.scss";
+@import "cardAboutUs.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/Alkalami.ttf);
+}
+
+body {
+  font-family: myFirstFont;
+}
+
+
+ 
+
+
+
+
+

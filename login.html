@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="./assets/bootstrap/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./assets/js/login.js" defer></script>
+    <link rel="shortcut icon" href="./assets/images/login/evolve-tuning-favicon-white.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="container-fluid main-bg">
+        <div class="row d-flex justify-content-center align-items-center box ">
+            <div class="col-md-5 col-sm-12 ">
+
+                <div class="header-name">
+                    <p>Evolve Tuning</p>
+                </div>
+                <div class="form-login">
+
+                    <form>
+                        <div class="mb-3 input-login">
+                            <input type="email" class="" id="email" placeholder="Enter Your Email" required>
+                        </div>
+                        <div class="mb-3 input-login">
+                            <input type="password" class="" id="password" placeholder="Enter Your Password" required>
+                        </div>
+                        <button type="submit" class="btn-login" id="loginBtn" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">LogIn</button>
+                    </form>
+
+                    <div id="socialMediaAddress" class="bottom d-flex justify-content-center align-items-center">
+                        <a href="./aboutus.html">
+                            <i class="bi bi-telegram p-3"></i>
+                            <i class="bi bi-github "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">LogIn</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close
+                    </button>
+                    <button type="button" class="btn btn-success" id="login">
+                        Login
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
